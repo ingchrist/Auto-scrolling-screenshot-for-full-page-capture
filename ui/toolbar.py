@@ -34,7 +34,7 @@ class Toolbar:
         """
         self.root = tk.Tk()
         self.root.title("ScrollSnip")
-        self.root.geometry("150+{}+{}".format(x, y))
+        self.root.geometry("150x50+{}+{}".format(x, y))
         self.root.resizable(False, False)
         
         # Make always on top

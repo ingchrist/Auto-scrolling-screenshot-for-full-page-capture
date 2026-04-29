@@ -9,7 +9,7 @@ Responsible for:
 
 from typing import List
 from PIL import Image
-from ..core.image_buffer import ImageStrip
+from core.image_buffer import ImageStrip
 
 
 class ImageStitcher:

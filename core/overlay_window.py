@@ -8,7 +8,7 @@ Responsible for:
 """
 
 import tkinter as tk
-from .screen_utils import get_screen_size
+from core.screen_utils import get_screen_size
 
 
 class OverlayWindow:

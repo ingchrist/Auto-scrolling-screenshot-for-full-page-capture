@@ -8,6 +8,11 @@ Usage:
 """
 
 import sys
+from pathlib import Path
+
+# Add the project directory to sys.path to resolve module imports
+sys.path.insert(0, str(Path(__file__).parent))
+
 from orchestrator import ScrollSnipOrchestrator
 
 

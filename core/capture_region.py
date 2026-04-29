@@ -9,7 +9,7 @@ Responsible for:
 
 from dataclasses import dataclass
 from typing import Tuple
-from .screen_utils import normalize_region, clamp_to_screen
+from core.screen_utils import normalize_region, clamp_to_screen
 
 
 @dataclass

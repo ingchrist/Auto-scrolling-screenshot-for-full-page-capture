@@ -13,26 +13,26 @@ import threading
 from typing import Optional
 import pyautogui
 
-from .config import (
+from config import (
     SCROLL_STEP,
     TRIGGER_ZONE,
     SCROLL_INTERVAL,
     MIN_CAPTURE_SIZE,
 )
 
-from .core.screen_utils import get_screen_size, get_screen_metrics
-from .core.mouse_listener import GlobalMouseListener
-from .core.capture_region import CaptureRegion, CaptureRegionTracker
-from .core.screenshot_capturer import ScreenshotCapturer
-from .core.scroll_detector import ScrollDetector, ScrollDirection
-from .core.image_buffer import ImageBuffer, ImageStrip
-from .core.overlay_window import OverlayWindow
+from core.screen_utils import get_screen_size, get_screen_metrics
+from core.mouse_listener import GlobalMouseListener
+from core.capture_region import CaptureRegion, CaptureRegionTracker
+from core.screenshot_capturer import ScreenshotCapturer
+from core.scroll_detector import ScrollDetector, ScrollDirection
+from core.image_buffer import ImageBuffer, ImageStrip
+from core.overlay_window import OverlayWindow
 
-from .processing.image_stitcher import ImageStitcher
-from .processing.file_saver import FileSaver
+from processing.image_stitcher import ImageStitcher
+from processing.file_saver import FileSaver
 
-from .ui.toolbar import Toolbar
-from .ui.notifications import ConfirmationPopup
+from ui.toolbar import Toolbar
+from ui.notifications import ConfirmationPopup
 
 
 class CaptureState:

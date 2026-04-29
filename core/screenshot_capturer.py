@@ -10,7 +10,7 @@ Responsible for:
 import pyautogui
 from PIL import Image
 from typing import Tuple
-from .capture_region import CaptureRegion
+from core.capture_region import CaptureRegion
 
 
 class ScreenshotCapturer:

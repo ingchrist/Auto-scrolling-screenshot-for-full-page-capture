@@ -8,6 +8,7 @@ Responsible for:
 """
 
 from typing import Optional
+from core.capture_region import CaptureRegion
 
 
 class ScrollDirection:
